@@ -28,7 +28,7 @@
 
     <div class="product-detail">
         <div class="pro-left">
-            <img src="assets/Arrival/arr-laptop.png" alt="">
+            <img src="Image Sections/New Arrival Images/laptop.png" alt="">
         </div>
         <div class="pro-right">
             <h4>
@@ -44,9 +44,19 @@
                 </li>
             </ul>
             <div class="pro-button">
-                <button class="addBtn">ADD TO CART</button>
+                
                 <button class="buyBtn">BUY NOW</button>
+                <button class="cart-btn" onclick="addToCart('HP Laptop - ₹74,999.00', 'Image Sections/New Arrival Images/laptop.jpg', ' HP Pavilion Intel Core Ultra 5 125U - (16 GB/1TB SSD/Windows 11 Home) 16-af0056TU Thin and Light Laptop (16 inch, Natural Silver Aluminum, 1.77 Kg, With MS Office)')">Add to Cart</button>
             </div>
+            
+            <script>
+              function addToCart(name, image, description) {
+                const product = { name, image, description };
+                localStorage.setItem('cartItem', JSON.stringify(product));
+                window.location.href = 'cart.html';
+              }
+            </script>
+            
         </div>
 
     </div>

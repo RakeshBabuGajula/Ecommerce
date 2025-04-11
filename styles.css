@@ -170,18 +170,19 @@
     width: 100%;
 }
 
-.addBtn,
+
 .buyBtn {
     width: 10rem;
     height: 3rem;
     margin: 10px;
 }
 
-.addBtn {
-    background-color: orangered;
-    color: white;
-}
+
 
 .buyBtn {
     background-color: aquamarine;
 }
+.cart-btn {    
+    background-color: rgb(255, 0, 0); 
+    color: rgb(255, 255, 255)  
+  }

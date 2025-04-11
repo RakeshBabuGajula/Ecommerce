@@ -28,7 +28,7 @@
 
     <div class="product-detail">
         <div class="pro-left">
-            <img src="assets/Arrival/arr-mobile.png" alt="">
+            <img src="Image Sections/New Arrival Images/mobile.png" alt="">
         </div>
         <div class="pro-right">
             <h4>
@@ -44,9 +44,19 @@
                 </li>
             </ul>
             <div class="pro-button">
-                <button class="addBtn">ADD TO CART</button>
+
                 <button class="buyBtn">BUY NOW</button>
+                <button class="cart-btn" onclick="addToCart(' SAMSUNG Galaxy S20 FE 5G - ₹29,999.00','Image Sections/New Arrival Images/mobile.jpg', ' SAMSUNG Galaxy S20 FE 5G (Light Green, 128GB) (8 GB RAM)')">Add to Cart</button>
             </div>
+            
+            <script>
+              function addToCart(name, image, description) {
+                const product = { name, image, description };
+                localStorage.setItem('cartItem', JSON.stringify(product));
+                window.location.href = 'cart.html';
+              }
+            </script>
+        
         </div>
 
     </div>

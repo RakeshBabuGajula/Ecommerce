@@ -1,0 +1,90 @@
+<h2>Product Added to Cart</h2>
+<div id="cartItem"></div>
+
+<script>
+  const product = JSON.parse(localStorage.getItem('cartItem'));
+
+  if(product) {
+    document.getElementById('cartItem').innerHTML = `
+      <img src="${product.image}" alt="${product.name}" width="200">
+      <h3>${product.name}</h3>
+      <p>${product.description}</p>
+    `;
+  } else {
+    document.getElementById('cartItem').innerHTML = '<p>No item in cart</p>';
+  }
+</script>
+<button class="buyBtn">
+  BUY NOW                  
+</button>
+<button class="buyBtn">
+  REMOVE                 
+</button>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  h2 {
+    margin-top: 40px;
+    color: #333;
+  }
+
+  #cartItem {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    text-align: center;
+    width: 300px;
+  }
+
+  #cartItem img {
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+
+  #cartItem h3 {
+    font-size: 1.2rem;
+    color: #222;
+    margin-bottom: 10px;
+  }
+
+  #cartItem p {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+
+  .buyBtn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 10px 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+
+  .buyBtn:hover {
+    background-color: #0056b3;
+  }
+
+  .buyBtn:nth-of-type(2) {
+    background-color: #dc3545;
+  }
+
+  .buyBtn:nth-of-type(2):hover {
+    background-color: #a71d2a;
+  }
+</style>

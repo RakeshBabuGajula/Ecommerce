@@ -28,7 +28,7 @@
 
     <div class="product-detail">
         <div class="pro-left">
-            <img src="assets/Arrival/arr-watch.jpg" alt="">
+            <img src="Image Sections/New Arrival Images/TV.jpg" alt="">
         </div>
         <div class="pro-right">
             <h4>
@@ -44,9 +44,18 @@
                 </li>
             </ul>
             <div class="pro-button">
-                <button class="addBtn">ADD TO CART</button>
+                
                 <button class="buyBtn">BUY NOW</button>
+                <button class="cart-btn" onclick="addToCart('LG Television - ₹49,999.00', 'Image Sections/New Arrival Images/TV.jpg', 'LG UR7500 108 cm (43 inch) Ultra HD (4K) LED Smart WebOS TV with Alpha5 Al Processor 4K Gen6, Al Picture Pro, 4K Upscaling, 60 Hz Refresh Rate, Game Optimizer, Magic Remote Capability, 5-Year Guaranteed with New OS Experience (43UR7500PSC)')">Add to Cart</button>
             </div>
+            
+            <script>
+              function addToCart(name, image, description) {
+                const product = { name, image, description };
+                localStorage.setItem('cartItem', JSON.stringify(product));
+                window.location.href = 'cart.html';
+              }
+            </script>
         </div>
 
     </div>

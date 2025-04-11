@@ -28,7 +28,7 @@
 
     <div class="product-detail">
         <div class="pro-left">
-            <img src="assets/Arrival/arr-speaker.jpg" alt="">
+            <img src="Image Sections/New Arrival Images/speakers.jpg" alt="">
         </div>
         <div class="pro-right">
             <h4>
@@ -44,9 +44,19 @@
                 </li>
             </ul>
             <div class="pro-button">
-                <button class="addBtn">ADD TO CART</button>
+               
                 <button class="buyBtn">BUY NOW</button>
+                <button class="cart-btn" onclick="addToCart('SONY HT-S20R 5.1ch Home Theatre - ₹15,499.00 ', 'Image Sections/New Arrival Images/Speakers.jpg', ' SONY HT-S20R 5.1ch Home Theatre with Dolby Digital, Subwoofer, Rear Speakers, 400 W Bluetooth Soundbar (Black, 5.1 Channel)')">Add to Cart</button>
             </div>
+            
+            <script>
+              function addToCart(name, image, description) {
+                const product = { name, image, description };
+                localStorage.setItem('cartItem', JSON.stringify(product));
+                window.location.href = 'cart.html';
+              }
+            </script>
+        
         </div>
 
     </div>

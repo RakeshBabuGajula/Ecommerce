@@ -28,7 +28,7 @@
 
     <div class="product-detail">
         <div class="pro-left">
-            <img src="assets/Arrival/arr-ipod.jpg" alt="">
+            <img src="Image Sections/New Arrival Images/earpods.jpg" alt="">
         </div>
         <div class="pro-right">
             <h4>
@@ -44,9 +44,20 @@
                 </li>
             </ul>
             <div class="pro-button">
-                <button class="addBtn">ADD TO CART</button>
+ 
                 <button class="buyBtn">BUY NOW</button>
+                <button class="cart-btn" onclick="addToCart('Boat Earpods - ₹1,299.00', 'Image Sections/New Arrival Images/earpods.jpg', 'boAt Nirvana Ion with 120 Hours Playback & Crystal Bionic Sound by Hifi DSP 5 Bluetooth Headset (Charcoal Black, True Wireless)')">Add to Cart</button>
             </div>
+            
+            <script>
+              function addToCart(name, image, description) {
+                const product = { name, image, description };
+                localStorage.setItem('cartItem', JSON.stringify(product));
+                window.location.href = 'cart.html';
+              }
+            </script>
+               
+            
         </div>
 
     </div>

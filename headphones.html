@@ -28,7 +28,7 @@
 
     <div class="product-detail">
         <div class="pro-left">
-            <img src="assets/Arrival/arr-headP.png" alt="">
+            <img src="Image Sections/New Arrival Images/boatHP.jpg" alt="">
         </div>
         <div class="pro-right">
             <h4>
@@ -44,9 +44,18 @@
                 </li>
             </ul>
             <div class="pro-button">
-                <button class="addBtn">ADD TO CART</button>
+
                 <button class="buyBtn">BUY NOW</button>
+                <button class="cart-btn" onclick="addToCart('Boat Head Phones - ₹3,499.00', 'Image Sections/New Arrival Images/boatHP.jpg', 'boat Rockerz 450 w/40mm Drivers,15 HRS Playback,Soft Padded Earcups Bluetooth Headset (Luscious Black,On the Ear)')">Add to Cart</button>
             </div>
+            
+            <script>
+              function addToCart(name, image, description) {
+                const product = { name, image, description };
+                localStorage.setItem('cartItem', JSON.stringify(product));
+                window.location.href = 'cart.html';
+              }
+            </script>
         </div>
 
     </div>

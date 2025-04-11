@@ -28,7 +28,7 @@
 
     <div class="product-detail">
         <div class="pro-left">
-            <img src="assets/Arrival/arr-trimmer.png" alt="">
+            <img src="Image Sections/New Arrival Images/trimmer.png" alt="">
         </div>
         <div class="pro-right">
             <h4>PHILIPS BT3431/30 Trimmer 60 min Runtime 20 Length Settings (Black)
@@ -44,9 +44,18 @@
                 </li>
             </ul>
             <div class="pro-button">
-                <button class="addBtn">ADD TO CART</button>
+
                 <button class="buyBtn">BUY NOW</button>
+                <button class="cart-btn" onclick="addToCart('PHILIPS Trimmer - ₹1,699.00', 'Image Sections/New Arrival Images/Trimmer.jpg', 'PHILIPS BT3431/30 Trimmer 60 min Runtime 20 Length Settings (Black)')">Add to Cart</button>
             </div>
+            
+            <script>
+              function addToCart(name, image, description) {
+                const product = { name, image, description };
+                localStorage.setItem('cartItem', JSON.stringify(product));
+                window.location.href = 'cart.html';
+              }
+            </script>
         </div>
 
     </div>

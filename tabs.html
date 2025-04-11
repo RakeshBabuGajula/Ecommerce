@@ -28,7 +28,7 @@
 
     <div class="product-detail">
         <div class="pro-left">
-            <img src="assets/Arrival/arr-tab.jpg" alt="">
+            <img src="Image Sections/New Arrival Images/tab.jpg" alt="">
         </div>
         <div class="pro-right">
             <h4>
@@ -44,9 +44,18 @@
                 </li>
             </ul>
             <div class="pro-button">
-                <button class="addBtn">ADD TO CART</button>
+                
                 <button class="buyBtn">BUY NOW</button>
+                <button class="cart-btn" onclick="addToCart('REDMI Pad Pro - ₹21,999.00', 'Image Sections/New Arrival Images/tab.jpg', 'REDMI Pad Pro 6 GB RAM 128 GB ROM 12.1 inch with Wi-Fi Only Tablet (Black)')">Add to Cart</button>
             </div>
+            
+            <script>
+              function addToCart(name, image, description) {
+                const product = { name, image, description };
+                localStorage.setItem('cartItem', JSON.stringify(product));
+                window.location.href = 'cart.html';
+              }
+            </script>
         </div>
 
     </div>

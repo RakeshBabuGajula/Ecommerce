@@ -28,11 +28,11 @@
 
     <div class="product-detail">
         <div class="pro-left">
-            <img src="assets/Arrival/arr-ac.jpg" alt="">
+            <img src="Image Sections/New Arrival Images/AC.jpg" alt="">
         </div>
         <div class="pro-right">
             <h4>
-                LG 1.5 Ton 5 Star AI 6 in 1 Super Convertible Smart WiFi Inverter Split AC, PS-Q19GWZF (Copper Condenser, 4 Way Swing, Anti-Allergy Filter, Ocean Black Fins, 2022 Launch)
+                Samsung 1.5 Ton 4 Star AI 6 in 1 Super Convertible Smart WiFi Inverter Split AC, PS-Q19GWZF (Copper Condenser, 4 Way Swing, Anti-Allergy Filter, Ocean Black Fins, 2022 Launch)
 
             </h4>
             <ul>
@@ -43,9 +43,22 @@
                 <li>EMIs (Credit Cards) from ₹2136.09/month | View-Plans FREE Shipping!
                 </li>
             </ul>
-            <div class="pro-button">
-                <button class="addBtn">ADD TO CART</button>
-                <button class="buyBtn">BUY NOW</button>
+            <div class="pro-button"> 
+
+                <button class="buyBtn">
+                    BUY NOW                  
+                </button>
+                <button class="cart-btn" onclick="addToCart('Samsung Split Ac 4 Star - ₹44,490.00', 'Image Sections/New Arrival Images/AC.jpg', 'Samsung 1.5 Ton 4 Star AI 6 in 1 Super Convertible Smart WiFi Inverter Split AC, PS-Q19GWZF (Copper Condenser, 4 Way Swing, Anti-Allergy Filter, Ocean Black Fins, 2022 Launch)')">Add to Cart</button>
+            </div>
+            
+            <script>
+              function addToCart(name, image, description) {
+                const product = { name, image, description };
+                localStorage.setItem('cartItem', JSON.stringify(product));
+                window.location.href = 'cart.html';
+              }
+            </script>
+               
             </div>
         </div>
 
