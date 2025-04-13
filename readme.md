@@ -59,7 +59,19 @@ This is *not part of any internship or official assignment* — I built this pro
 - Semantic and accessible HTML structure
 
 ---
- 
+
+## 📸 Preview
+
+> ![Screenshot 2025-04-13 234329](https://github.com/user-attachments/assets/9481f187-4013-4353-9c3d-4a356eca1766)
+![Screenshot 2025-04-13 234349](https://github.com/user-attachments/assets/f5187404-444e-40e6-a416-e2463180afa7)
+![Screenshot 2025-04-13 234405](https://github.com/user-attachments/assets/9a832081-0938-45ea-896d-110c4613195a)
+![Screenshot 2025-04-13 234426](https://github.com/user-attachments/assets/227a1a09-ede4-403b-bceb-d6923bdcdbc4)
+![Screenshot 2025-04-13 235457](https://github.com/user-attachments/assets/c8b886ef-ed9d-42d2-a859-ef2365aceefc)
+![Screenshot 2025-04-13 235530](https://github.com/user-attachments/assets/e8491f6b-75b4-4d18-b616-bd0be50707d4)
+
+
+---
+
 ## 📌 Project Highlights
 
 - Built using only HTML, CSS, and vanilla JavaScript.
