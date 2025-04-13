@@ -62,7 +62,7 @@ This is *not part of any internship or official assignment* — I built this pro
 
 ## 📸 Preview
 
-> [Include screenshots or add a link to a hosted preview here]
+> [file:///C:/Users/grake/OneDrive/Attachments/Documents/Desktop/Ecommerce/index.html]
 
 ---
 
@@ -80,9 +80,9 @@ This is *not part of any internship or official assignment* — I built this pro
 
 ## 🔗 Live Preview & Source Code
 
-- *Output link:* [Add deployed site link here]  
+- *Output link:* [file:///C:/Users/grake/OneDrive/Attachments/Documents/Desktop/Ecommerce/index.html]  
 - *GitHub Repository:* Check the full source code in this repo.  
-- You can also find the project output link and GitHub link in the About section.
+
 
 ---
 
@@ -93,5 +93,5 @@ Looking forward to building more projects and leveling up in frontend developmen
 
 ---
 
-*Created by:* [Your Name]  
-*Connect with me on [LinkedIn](https://www.linkedin.com/)*
+*Created by:* [Rakesh Babu Gajula]  
+*Connect with me on [LinkedIn](https://www.linkedin.com/in/rakesh-babu-gajula/)*
