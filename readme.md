@@ -59,13 +59,7 @@ This is *not part of any internship or official assignment* — I built this pro
 - Semantic and accessible HTML structure
 
 ---
-
-## 📸 Preview
-
-> [file:///C:/Users/grake/OneDrive/Attachments/Documents/Desktop/Ecommerce/index.html]
-
----
-
+ 
 ## 📌 Project Highlights
 
 - Built using only HTML, CSS, and vanilla JavaScript.
@@ -80,7 +74,7 @@ This is *not part of any internship or official assignment* — I built this pro
 
 ## 🔗 Live Preview & Source Code
 
-- *Output link:* [file:///C:/Users/grake/OneDrive/Attachments/Documents/Desktop/Ecommerce/index.html]  
+
 - *GitHub Repository:* Check the full source code in this repo.  
 
 
