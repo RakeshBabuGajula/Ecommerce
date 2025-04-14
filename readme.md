@@ -62,12 +62,13 @@ This is *not part of any internship or official assignment* — I built this pro
 
 ## 📸 Preview
 
-> ![Screenshot 2025-04-13 234329](https://github.com/user-attachments/assets/9481f187-4013-4353-9c3d-4a356eca1766)
-![Screenshot 2025-04-13 234349](https://github.com/user-attachments/assets/f5187404-444e-40e6-a416-e2463180afa7)
-![Screenshot 2025-04-13 234405](https://github.com/user-attachments/assets/9a832081-0938-45ea-896d-110c4613195a)
-![Screenshot 2025-04-13 234426](https://github.com/user-attachments/assets/227a1a09-ede4-403b-bceb-d6923bdcdbc4)
-![Screenshot 2025-04-13 235457](https://github.com/user-attachments/assets/c8b886ef-ed9d-42d2-a859-ef2365aceefc)
-![Screenshot 2025-04-13 235530](https://github.com/user-attachments/assets/e8491f6b-75b4-4d18-b616-bd0be50707d4)
+![Screenshot 2025-04-13 234329](https://github.com/user-attachments/assets/8c761435-3c80-4fe2-b4f3-5948e6153720)
+![Screenshot 2025-04-13 234349](https://github.com/user-attachments/assets/ff8799b9-67de-433d-b322-7a1747aa2e50)
+![Screenshot 2025-04-13 234405](https://github.com/user-attachments/assets/fc168d7e-7f65-4e53-a2ff-c96d49f68b87)
+![Screenshot 2025-04-13 234426](https://github.com/user-attachments/assets/d95bd150-5783-41c3-8bea-e4511b595f48)
+![Screenshot 2025-04-13 235457](https://github.com/user-attachments/assets/0e65bf70-4c59-4acc-a677-072463596fad)
+![Screenshot 2025-04-13 235530](https://github.com/user-attachments/assets/87b3606b-f086-4aae-97a9-737de63078b4)
+
 
 
 ---
