@@ -1,0 +1,67 @@
+</html><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>AirConditioner</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="company">
+            <h2>Ecommerce</h2>
+        </div>
+        <div class="products">
+            <ul>
+                <li>Laptop</li>
+                <li>Mobiles</li>
+                <li>AC</li>
+                <li>TV</li>
+                <li>Camera</li>
+                <li>Watch</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="product-detail">
+        <div class="pro-left">
+            <img src="Image Sections/New Arrival Images/AC.jpg" alt="">
+        </div>
+        <div class="pro-right">
+            <h4>
+                 Samsung 1.5 Ton 4 Star AI 6 in 1 Super Convertible Smart WiFi Inverter Split AC, PS-Q19GWZF (Copper Condenser, 4 Way Swing, Anti-Allergy Filter, Ocean Black Fins, 2022 Launch)
+
+            </h4>
+            <ul>
+                <li>Deal Price: ₹44,490.00</li>
+                <li>Offer Price: ₹45,990.00</li>
+                <li>MRP: ₹77,990.00 (Inclusive of all taxes)</li>
+                <li>You Save: 42%(₹33,500)</li>
+                <li>EMIs (Credit Cards) from ₹2136.09/month | View-Plans FREE Shipping!
+                </li>
+            </ul>
+            <div class="pro-button">
+ 
+                <button class="buyBtn">BUY NOW</button>
+                <button class="cart-btn" onclick="addToCart('Samsung Split 4 Star AC - ₹1,299.00', 'Image Sections/New Arrival Images/AC.jpg','Samsung 1.5 Ton 4 Star AI 6 in 1 Super Convertible Smart WiFi Inverter Split AC, PS-Q19GWZF (Copper Condenser, 4 Way Swing, Anti-Allergy Filter, Ocean Black Fins, 2022 Launch) ')">Add to Cart</button>
+            </div>
+            
+            <script>
+              function addToCart(name, image, description) {
+                const product = { name, image, description };
+                localStorage.setItem('cartItem', JSON.stringify(product));
+                window.location.href = 'cart.html';
+              }
+            </script>
+               
+            
+        </div>
+
+    </div>
+
+</body>
+
+</html>
